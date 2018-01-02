@@ -1,0 +1,34 @@
+{
+  "name": "fetch-with-timeout",
+  "version": "1.0.0",
+  "description": "Fetch with timeout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js --presets babel-preset-es2015 --out-dir .",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "fetch",
+    "timeout",
+    "fetch-timeout",
+    "fetch-with-timeout"
+  ],
+  "author": "Coderge",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "whatwg-fetch": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderge/fetch-with-timeout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coderge/fetch-with-timeout/issues"
+  },
+  "homepage": "https://github.com/coderge/fetch-with-timeout#readme"
+}
