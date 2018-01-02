@@ -11,10 +11,10 @@ npm install --save fetch-with-timeout
 
 ```js
 // ES5
-var fetch = require('fetch-with-timeout');
+var fetchWithTimeout = require('fetch-with-timeout');
 
 // ES6
-import fetch from 'fetch-with-timeout';
+import fetchWithTimeout from 'fetch-with-timeout';
 
 /**
  * fetch-with-timeout
@@ -23,7 +23,7 @@ import fetch from 'fetch-with-timeout';
  * @param timeout fetch's timeout
  * @returns Promise
  */
-fetch(domain, [options], [timeout])
+fetchWithTimeout(domain, [options], [timeout])
   .then(function(res) {
     console.log(res);
   })
