@@ -24,11 +24,9 @@ module.exports = function (URL) {
       // Clear the timeout as cleanup
       clearTimeout(timeout);
       if (!didTimeOut) {
-        console.log('fetch good! ', response);
         resolve(response);
       }
     }).catch(function (err) {
-      console.log('fetch failed! ', err);
       // Rejection already happened with setTimeout
       if (didTimeOut) return;
       // Reject with error
