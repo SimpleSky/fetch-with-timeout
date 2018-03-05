@@ -34,11 +34,5 @@ module.exports = function (URL) {
       // Reject with error
       reject(err);
     });
-  }).then(function () {
-    // Request success and no timeout
-    console.log('good promise, no timeout! ');
-  }).catch(function (err) {
-    // Error: response error, request timeout or runtime error
-    console.log('promise error! ', err);
   });
 };
